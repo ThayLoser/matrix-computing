@@ -46,7 +46,6 @@ Group_<ID>/
 |-- requirements.txt
 |-- report/
 |   |-- report.pdf
-|   |-- report.tex
 |-- part1/
 |   |-- gaussian.py
 |   |-- determinant.py
@@ -57,22 +56,31 @@ Group_<ID>/
 |   |-- decomposition.py
 |   |-- diagonalization.py
 |   |-- manim_scene.py
-|   |-- demo_video.mp4
+|   |-- part2_demo.ipynb
+|   |-- manim_link.txt
 |-- part3/
 |   |-- solvers.py
 |   |-- benchmark.py
 |   |-- analysis.ipynb
+|   |-- benchmark_results.json
 ```
 
 ## 🚀 Setup & Installation
 
 1. Clone this repository.
+   ```bash
+   git clone https://github.com/ThayLoser/matrix-computing.git
+   ```
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. To run the Manim visualization for Part 2:
+3. Navigate to the correct folder if needed.
+   ```bash
+   cd <FolderName>
+   ```
+4. To run the Manim visualization for Part 2:
    ```bash
    manim -pqh part2/manim_scene.py <SceneClassName>
    ```
-4. Explore the Jupyter notebooks (`part1_demo.ipynb` and `analysis.ipynb`) to see the implementations and benchmarks in action.
+5. Explore the Jupyter notebooks (`part1_demo.ipynb`, `part2_demo.ipynb` and `analysis.ipynb`) to see the implementations and benchmarks in action.
